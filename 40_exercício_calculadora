@@ -1,0 +1,34 @@
+
+while True:
+    num1 = 0
+    num2 = 0
+    esc = int(input('\n\n\n\rEscolha a opção que deseja: \n'
+                    '1 - Somar\n'
+                    '2 - Subtrair\n'
+                    '3 - Dividir\n'
+                    '4 - Multiplicar\n'
+                    '5 - Sair'
+                    
+                    '\nEscolha = '))
+    if esc == 1:
+        num1 = int(input('Digite o primeiro valor: '))
+        num2 = int(input('Digite o segundo valor: '))
+        print(f'O Resultado de {num1} + {num2} é: {num1+num2}')
+    elif esc == 2:
+        num1 = int(input('Digite o primeiro valor: '))
+        num2 = int(input('Digite o segundo valor: '))
+        print(f'O Resultado de {num1} - {num2} é: {num1-num2}')
+    elif esc == 3:
+        num1 = int(input('Digite o primeiro valor: '))
+        num2 = int(input('Digite o segundo valor: '))
+        print(f'O Resultado de {num1} / {num2} é: {num1/num2}')
+    elif esc == 4:
+        num1 = int(input('Digite o primeiro valor: '))
+        num2 = int(input('Digite o segundo valor: '))
+        print(f'O Resultado de {num1} * {num2} é: {num1*num2}')
+    elif esc == 5:
+        break
+    else:
+        print('Valor não reconhecido')
+        
+
